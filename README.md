@@ -148,16 +148,6 @@ Net Salary = Basic Salary + Allowance - Deductions
 5. Generate payroll on the Payroll page.
 6. Review dashboard metrics and print the payroll summary if needed.
 
-## Submission Notes
-
-For the assessment submission, include:
-
-- Source code
-- `database/schema.sql`
-- This README
-- GitHub repository link
-- Screenshots of Login, Dashboard, Employees, Salary, Attendance, and Payroll pages
-
 ## Architecture
 
 The backend follows a layered pattern:
