@@ -6,6 +6,8 @@ import { addEmployeeSchema, deleteEmployeeSchema, editEmployeeSchema, viewEmploy
 const router = Router();
 
 router.get("/v1/all-employee", employeeController.getAllEmployees);
+router.get("/v1/active-employees", employeeController.getActiveEmployees);
+router.get("/v1/on-leave-employees", employeeController.getOnLeaveEmployees);
 router.post("/v1/view-employee", validateSchema(viewEmployeeSchema), employeeController.viewEmployee);
 router.post("/v1/add-employee", validateSchema(addEmployeeSchema), employeeController.addEmployee);
 router.put("/v1/edit-employee", validateSchema(editEmployeeSchema), employeeController.editEmployee);
